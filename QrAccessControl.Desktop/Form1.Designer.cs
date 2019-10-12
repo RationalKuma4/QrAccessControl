@@ -45,72 +45,72 @@
             // 
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(465, 482);
+            this.pictureBox1.Size = new System.Drawing.Size(419, 440);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // comboCamera
             // 
             this.comboCamera.FormattingEnabled = true;
-            this.comboCamera.Location = new System.Drawing.Point(666, 12);
+            this.comboCamera.Location = new System.Drawing.Point(532, 72);
             this.comboCamera.Name = "comboCamera";
-            this.comboCamera.Size = new System.Drawing.Size(121, 21);
+            this.comboCamera.Size = new System.Drawing.Size(147, 21);
             this.comboCamera.TabIndex = 1;
             // 
             // comboLabel
             // 
             this.comboLabel.AutoSize = true;
-            this.comboLabel.Location = new System.Drawing.Point(617, 15);
+            this.comboLabel.Location = new System.Drawing.Point(447, 75);
             this.comboLabel.Name = "comboLabel";
-            this.comboLabel.Size = new System.Drawing.Size(43, 13);
+            this.comboLabel.Size = new System.Drawing.Size(79, 13);
             this.comboLabel.TabIndex = 2;
-            this.comboLabel.Text = "Camara";
+            this.comboLabel.Text = "Elige la cámara";
             // 
             // labelName
             // 
             this.labelName.AutoSize = true;
-            this.labelName.Location = new System.Drawing.Point(534, 93);
+            this.labelName.Location = new System.Drawing.Point(519, 256);
             this.labelName.Name = "labelName";
-            this.labelName.Size = new System.Drawing.Size(57, 13);
+            this.labelName.Size = new System.Drawing.Size(104, 13);
             this.labelName.TabIndex = 3;
-            this.labelName.Text = "labelName";
+            this.labelName.Text = "Nombre de asistente";
             // 
             // regData
             // 
             this.regData.AutoSize = true;
-            this.regData.Location = new System.Drawing.Point(537, 110);
+            this.regData.Location = new System.Drawing.Point(517, 294);
             this.regData.Name = "regData";
-            this.regData.Size = new System.Drawing.Size(30, 13);
+            this.regData.Size = new System.Drawing.Size(109, 13);
             this.regData.TabIndex = 4;
-            this.regData.Text = "Dato";
+            this.regData.Text = "Número de asistencia";
             // 
             // scanButton
             // 
-            this.scanButton.Location = new System.Drawing.Point(537, 165);
+            this.scanButton.Location = new System.Drawing.Point(505, 176);
             this.scanButton.Name = "scanButton";
-            this.scanButton.Size = new System.Drawing.Size(75, 23);
+            this.scanButton.Size = new System.Drawing.Size(132, 49);
             this.scanButton.TabIndex = 5;
-            this.scanButton.Text = "Escanear";
+            this.scanButton.Text = "Escanear código ";
             this.scanButton.UseVisualStyleBackColor = true;
             this.scanButton.Click += new System.EventHandler(this.ScanButton_Click);
             // 
             // activateButton
             // 
-            this.activateButton.Location = new System.Drawing.Point(537, 471);
+            this.activateButton.Location = new System.Drawing.Point(505, 111);
             this.activateButton.Name = "activateButton";
-            this.activateButton.Size = new System.Drawing.Size(75, 23);
+            this.activateButton.Size = new System.Drawing.Size(132, 49);
             this.activateButton.TabIndex = 6;
-            this.activateButton.Text = "Activar";
+            this.activateButton.Text = "Activar cámara";
             this.activateButton.UseVisualStyleBackColor = true;
             this.activateButton.Click += new System.EventHandler(this.ActivateButton_Click);
             // 
             // printButton
             // 
-            this.printButton.Location = new System.Drawing.Point(821, 471);
+            this.printButton.Location = new System.Drawing.Point(505, 337);
             this.printButton.Name = "printButton";
-            this.printButton.Size = new System.Drawing.Size(75, 23);
+            this.printButton.Size = new System.Drawing.Size(132, 49);
             this.printButton.TabIndex = 7;
-            this.printButton.Text = "Imprimir";
+            this.printButton.Text = "Imprimir multipase";
             this.printButton.UseVisualStyleBackColor = true;
             this.printButton.Click += new System.EventHandler(this.PrintButton_Click);
             // 
@@ -123,7 +123,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(908, 506);
+            this.ClientSize = new System.Drawing.Size(716, 466);
             this.Controls.Add(this.printButton);
             this.Controls.Add(this.activateButton);
             this.Controls.Add(this.scanButton);
